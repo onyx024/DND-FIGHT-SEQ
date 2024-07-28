@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+}
+
+.container {
+    text-align: center;
+}
+
+#character-display {
+    margin-bottom: 20px;
+}
+
+#character-image {
+    width: 200px; /* Set the width you prefer */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#character-action {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#next-turn {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
